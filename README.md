@@ -1,12 +1,12 @@
 ### m1-hw1-zehner-jonathan
 ---
 
-# Module 1
+# Module 1 - Assignment 1
 
 
 
 ## Jonathan A. Zehner
-## Web Design Student
+### Web Design Student
 ### University of Florida
 #### jonathan.zehner@ufl.edu
 ----------------------------
