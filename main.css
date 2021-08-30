@@ -5,11 +5,84 @@
 }
 
 /*--********************** Universal Styling *********************--*/
+/*-- Sticky Footer --*/
+html, body {
+    height: 100%;
+}
+
 body {
     display: flex;
     flex-flow: column nowrap;
     font: normal 1rem/1.5 verdana, sans-serif;
     margin: 0 auto;
-    padding: 0 2%;
     text-align: center;
 }
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+/*-- (end) Sticky Footer --*/
+
+/*-- Header --*/
+.header {
+    background-color: rgb(112, 168, 214);
+    padding: 50px 5%;
+}
+
+.header h1 {
+    font: normal 3rem/1.5 serif;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: auto;
+}
+
+.header nav ul li {
+    font: bold 1.5rem/1.5 sans-serif;
+    padding: 10px 5%;
+}
+/*-- (end) Header --*/
+
+/*-- Main Content --*/
+.content {
+    background-color: rgb(252, 249, 245);
+}
+
+.content h2 {
+    font: bold 2rem/1.5 serif;
+    padding: 50px 5% 10px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 50px 5%;
+    width: 80%;
+}
+/*-- (end) Main Content --*/
+
+/*-- Footer --*/
+.footer {
+    background-color: slategrey;
+    padding: 10px;
+}
+
+.footer h3 {
+    color: white;
+    font: normal 1.5rem/1.5 serif;
+}
+
+.footer p {
+    font: bold 0.8rem/1.5 sans-serif;
+}
+/*-- (end) Footer --*/
